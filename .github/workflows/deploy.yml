@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "akasuv-docs"
-          entrypoint: "./server/app/index"
+          entrypoint: "https://deno.land/x/std@0.188"
           root: ".next"
